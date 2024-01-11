@@ -1,0 +1,35 @@
+Relative Xpath
+--------------
+has certain syntaxes. We have to practice those syntaxes
+
+What are the conditions you need to satisfy to write Relative Xpath?
+//1. You need to know where to write Xpath
+//2. Ctrl+F in your webpage
+//3. Write Xpath in the editor
+//4. Make sure it is 1 of 1
+//5. if it shows 0 of 0 that means your xpath is incorrect
+
+
+1st syntax - most basic syntax
+//htmltag[@attribute = 'valueofthatattribute']
+//a[@class = 'signin']
+
+2nd syntax -
+//htmltag[@attribute1 = 'value' and  @attribute2 = 'value']
+//input[@id = 'login1' and @name = 'login']
+//input[@id = 'password' and @name = 'passwd']
+//input[@name = 'proceed' and @class = 'signinbtn']
+
+3rd syntax
+//htmltag[@attribute1 = 'value' or  @attribute2 = 'value']
+//input[@id = 'login1' or @name = 'login']
+//input[@id = 'password' or @name = 'passwd']
+//input[@name = 'proceed' or @class = 'signinbtn']
+
+4th syntax (related mostly to links)
+//htmltag[text() = 'valueofthetext']
+
+5th & 6th syntax (used for links as well as other WebElements) - popular syntax
+//htmltag[contains(text(), 'valueofthetext')] - mostly used for links
+//htmltag[contains(@attribute, 'valueoftheattribute')] - this is used for other WebElements
+//input[contains(@id, 'login1')]
