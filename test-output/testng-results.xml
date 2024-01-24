@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-17T22:41:50 EST" name="Default suite" finished-at="2024-01-17T22:41:50 EST" duration-ms="47">
+  <suite started-at="2024-01-23T22:07:52 EST" name="Default suite" finished-at="2024-01-23T22:07:58 EST" duration-ms="5784">
     <groups>
     </groups>
-    <test started-at="2024-01-17T22:41:50 EST" name="Default test" finished-at="2024-01-17T22:41:50 EST" duration-ms="47">
-      <class name="com.TestNG.Day10_Jan_17_2024_Introduction_to_TestNG.Enablement_Disablement_TestCases">
-        <test-method signature="logic1()[pri:0, instance:com.TestNG.Day10_Jan_17_2024_Introduction_to_TestNG.Enablement_Disablement_TestCases@4310d43]" started-at="2024-01-17T22:41:50 EST" name="logic1" finished-at="2024-01-17T22:41:50 EST" duration-ms="10" status="PASS">
+    <test started-at="2024-01-23T22:07:52 EST" name="Default test" finished-at="2024-01-23T22:07:58 EST" duration-ms="5784">
+      <class name="com.automation.Day11_Jan_23_2024_Cookies_Dropdown.Select_Dropdown">
+        <test-method signature="facebookDateOfBirthDropdown()[pri:0, instance:com.automation.Day11_Jan_23_2024_Cookies_Dropdown.Select_Dropdown@1b11171f]" started-at="2024-01-23T22:07:52 EST" name="facebookDateOfBirthDropdown" finished-at="2024-01-23T22:07:58 EST" duration-ms="5743" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logic1 -->
-        <test-method signature="logic3()[pri:0, instance:com.TestNG.Day10_Jan_17_2024_Introduction_to_TestNG.Enablement_Disablement_TestCases@4310d43]" started-at="2024-01-17T22:41:50 EST" name="logic3" finished-at="2024-01-17T22:41:50 EST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logic3 -->
-      </class> <!-- com.TestNG.Day10_Jan_17_2024_Introduction_to_TestNG.Enablement_Disablement_TestCases -->
+        </test-method> <!-- facebookDateOfBirthDropdown -->
+      </class> <!-- com.automation.Day11_Jan_23_2024_Cookies_Dropdown.Select_Dropdown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
