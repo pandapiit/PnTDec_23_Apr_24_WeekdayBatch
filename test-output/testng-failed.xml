@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day11_Jan_23_2024_New_Browser_Window_Tab_In_Automation.New_Tab_New_Window">
+      <class name="com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.SoftAssert_Concetps">
         <methods>
-          <include name="openNewTab"/>
+          <include name="checkingSoftAssert"/>
         </methods>
-      </class> <!-- com.automation.Day11_Jan_23_2024_New_Browser_Window_Tab_In_Automation.New_Tab_New_Window -->
+      </class> <!-- com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.SoftAssert_Concetps -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
