@@ -1,135 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-24T22:41:50 EST" name="Class Assignement Assertion Suite" finished-at="2024-01-24T22:42:50 EST" duration-ms="60110">
+  <suite started-at="2024-01-30T21:29:02 EST" name="Default suite" finished-at="2024-01-30T21:29:09 EST" duration-ms="7046">
     <groups>
     </groups>
-    <test started-at="2024-01-24T22:41:50 EST" name="Test" finished-at="2024-01-24T22:42:50 EST" duration-ms="60110">
-      <class name="com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:41:50 EST" name="setup" finished-at="2024-01-24T22:41:56 EST" duration-ms="5912" status="PASS">
+    <test started-at="2024-01-30T21:29:02 EST" name="Default test" finished-at="2024-01-30T21:29:09 EST" duration-ms="7046">
+      <class name="online_Students_code.Explain_Calling_Via_Object_Reference">
+        <test-method signature="check()[pri:0, instance:online_Students_code.Explain_Calling_Via_Object_Reference@54a7079e]" started-at="2024-01-30T21:29:02 EST" name="check" finished-at="2024-01-30T21:29:09 EST" duration-ms="6979" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="enterValidCredentials()[pri:1, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:41:56 EST" name="enterValidCredentials" finished-at="2024-01-24T22:41:57 EST" duration-ms="1008" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:41:57 EST" name="tearDown" finished-at="2024-01-24T22:41:57 EST" duration-ms="152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:41:57 EST" name="setup" finished-at="2024-01-24T22:42:02 EST" duration-ms="4608" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="enterValidEmailInvalidPassword()[pri:2, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:42:02 EST" name="enterValidEmailInvalidPassword" finished-at="2024-01-24T22:42:03 EST" duration-ms="819" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterValidEmailInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:42:03 EST" name="tearDown" finished-at="2024-01-24T22:42:03 EST" duration-ms="140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:42:03 EST" name="setup" finished-at="2024-01-24T22:42:08 EST" duration-ms="4761" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="enterInvalidEmailValidPassword()[pri:3, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:42:08 EST" name="enterInvalidEmailValidPassword" finished-at="2024-01-24T22:42:09 EST" duration-ms="745" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterInvalidEmailValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:42:09 EST" name="tearDown" finished-at="2024-01-24T22:42:09 EST" duration-ms="124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:42:09 EST" name="setup" finished-at="2024-01-24T22:42:14 EST" duration-ms="5200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="enterInvalidCredentials()[pri:4, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:42:14 EST" name="enterInvalidCredentials" finished-at="2024-01-24T22:42:15 EST" duration-ms="842" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:42:15 EST" name="tearDown" finished-at="2024-01-24T22:42:15 EST" duration-ms="158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:42:15 EST" name="setup" finished-at="2024-01-24T22:42:20 EST" duration-ms="4861" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="enterNoCredentials()[pri:4, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:42:20 EST" name="enterNoCredentials" finished-at="2024-01-24T22:42:20 EST" duration-ms="683" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterNoCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login@242b836]" started-at="2024-01-24T22:42:20 EST" name="tearDown" finished-at="2024-01-24T22:42:21 EST" duration-ms="153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Login -->
-      <class name="com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register">
-        <test-method is-config="true" signature="registerAssertions()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:21 EST" name="registerAssertions" finished-at="2024-01-24T22:42:25 EST" duration-ms="4595" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerAssertions -->
-        <test-method signature="registerWithNoInputs()[pri:1, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:25 EST" name="registerWithNoInputs" finished-at="2024-01-24T22:42:26 EST" duration-ms="623" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerWithNoInputs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:26 EST" name="tearDown" finished-at="2024-01-24T22:42:26 EST" duration-ms="204" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerAssertions()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:26 EST" name="registerAssertions" finished-at="2024-01-24T22:42:31 EST" duration-ms="4968" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerAssertions -->
-        <test-method signature="registerWithMandatoryDetails()[pri:2, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:31 EST" name="registerWithMandatoryDetails" finished-at="2024-01-24T22:42:32 EST" duration-ms="1011" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerWithMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:32 EST" name="tearDown" finished-at="2024-01-24T22:42:32 EST" duration-ms="140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerAssertions()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:32 EST" name="registerAssertions" finished-at="2024-01-24T22:42:37 EST" duration-ms="5001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerAssertions -->
-        <test-method signature="registerWithAllDetails()[pri:3, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:37 EST" name="registerWithAllDetails" finished-at="2024-01-24T22:42:38 EST" duration-ms="1116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerWithAllDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:38 EST" name="tearDown" finished-at="2024-01-24T22:42:38 EST" duration-ms="155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerAssertions()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:38 EST" name="registerAssertions" finished-at="2024-01-24T22:42:43 EST" duration-ms="4505" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerAssertions -->
-        <test-method signature="registerWithExistingEmail()[pri:4, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:43 EST" name="registerWithExistingEmail" finished-at="2024-01-24T22:42:44 EST" duration-ms="1084" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerWithExistingEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:44 EST" name="tearDown" finished-at="2024-01-24T22:42:44 EST" duration-ms="169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerAssertions()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:44 EST" name="registerAssertions" finished-at="2024-01-24T22:42:49 EST" duration-ms="4974" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerAssertions -->
-        <test-method signature="registerWithWrongConfirmPassword()[pri:5, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:49 EST" name="registerWithWrongConfirmPassword" finished-at="2024-01-24T22:42:50 EST" duration-ms="1185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerWithWrongConfirmPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register@53fe15ff]" started-at="2024-01-24T22:42:50 EST" name="tearDown" finished-at="2024-01-24T22:42:50 EST" duration-ms="158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.TestNG.Day12_Jan_24_2024_Assertions_In_TestNG.Class_Assignment_Assertions_Register -->
-    </test> <!-- Test -->
-  </suite> <!-- Class Assignement Assertion Suite -->
+        </test-method> <!-- check -->
+      </class> <!-- online_Students_code.Explain_Calling_Via_Object_Reference -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
