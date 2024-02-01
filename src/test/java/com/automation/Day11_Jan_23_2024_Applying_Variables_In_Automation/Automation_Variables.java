@@ -17,7 +17,7 @@ public class Automation_Variables {
 		driver.manage().window().maximize();
 		driver.get("https://tutorialsninja.com/demo");
 		driver.findElement(By.linkText("My Account")).click();
-		driver.findElement(By.linkText("My Account")).click();
+		driver.findElement(By.linkText("Login")).click();
 		
 	}
 	
