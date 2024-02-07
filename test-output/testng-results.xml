@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-31T22:49:58 EST" name="Default suite" finished-at="2024-01-31T22:49:58 EST" duration-ms="53">
+  <suite started-at="2024-02-06T22:30:26 EST" name="Default suite" finished-at="2024-02-06T22:30:42 EST" duration-ms="16246">
     <groups>
     </groups>
-    <test started-at="2024-01-31T22:49:58 EST" name="Default test" finished-at="2024-01-31T22:49:58 EST" duration-ms="53">
-      <class name="com.automation.Day14_Jan_31_2024_Introduction_To_DataDriven_Testing.TN_Data_From_PropertiesFile">
-        <test-method signature="userPath()[pri:0, instance:com.automation.Day14_Jan_31_2024_Introduction_To_DataDriven_Testing.TN_Data_From_PropertiesFile@4c1909a3]" started-at="2024-01-31T22:49:58 EST" name="userPath" finished-at="2024-01-31T22:49:58 EST" duration-ms="9" status="PASS">
+    <test started-at="2024-02-06T22:30:26 EST" name="Default test" finished-at="2024-02-06T22:30:42 EST" duration-ms="16246">
+      <class name="com.automation.Day15_Feb_06_2024_Wait_Conditions_in_Selenium.What_Are_Wait_Conditions">
+        <test-method signature="explicitWaitUnderstanding()[pri:0, instance:com.automation.Day15_Feb_06_2024_Wait_Conditions_in_Selenium.What_Are_Wait_Conditions@4b0d79fc]" started-at="2024-02-06T22:30:26 EST" name="explicitWaitUnderstanding" finished-at="2024-02-06T22:30:42 EST" duration-ms="16200" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userPath -->
-      </class> <!-- com.automation.Day14_Jan_31_2024_Introduction_To_DataDriven_Testing.TN_Data_From_PropertiesFile -->
+        </test-method> <!-- explicitWaitUnderstanding -->
+      </class> <!-- com.automation.Day15_Feb_06_2024_Wait_Conditions_in_Selenium.What_Are_Wait_Conditions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
