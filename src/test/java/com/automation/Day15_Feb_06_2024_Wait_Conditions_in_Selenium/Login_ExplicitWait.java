@@ -12,19 +12,25 @@ import org.testng.annotations.Test;
 public class Login_ExplicitWait {
 
 	public WebDriver driver;
-	public WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	public WebDriverWait wait;
+	
 
 	@Test
 	public void validCredentials() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://tutorialsninja.com/demo");
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("My Account"))); // clicking on My Account
 		driver.findElement(By.linkText("My Account")).click();
 		
 		//click on Login
+		wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Login")));
+		driver.findElement(By.linkText("Login")).click();
 		
 		//entering email
+		
+	
 		
 		//entering password
 		

@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-06T22:30:26 EST" name="Default suite" finished-at="2024-02-06T22:30:42 EST" duration-ms="16246">
+  <suite started-at="2024-02-07T22:25:40 EST" name="Default suite" finished-at="2024-02-07T22:26:48 EST" duration-ms="68571">
     <groups>
     </groups>
-    <test started-at="2024-02-06T22:30:26 EST" name="Default test" finished-at="2024-02-06T22:30:42 EST" duration-ms="16246">
-      <class name="com.automation.Day15_Feb_06_2024_Wait_Conditions_in_Selenium.What_Are_Wait_Conditions">
-        <test-method signature="explicitWaitUnderstanding()[pri:0, instance:com.automation.Day15_Feb_06_2024_Wait_Conditions_in_Selenium.What_Are_Wait_Conditions@4b0d79fc]" started-at="2024-02-06T22:30:26 EST" name="explicitWaitUnderstanding" finished-at="2024-02-06T22:30:42 EST" duration-ms="16200" status="PASS">
+    <test started-at="2024-02-07T22:25:40 EST" name="Default test" finished-at="2024-02-07T22:26:48 EST" duration-ms="68571">
+      <class name="com.automation.Day16_Feb_07_2024_Date_Class_Concepts.Utilities">
+        <test-method signature="registerCodeWithEmailStyleUpdated()[pri:0, instance:com.automation.Day16_Feb_07_2024_Date_Class_Concepts.Utilities@55634720]" started-at="2024-02-07T22:25:40 EST" name="registerCodeWithEmailStyleUpdated" finished-at="2024-02-07T22:25:48 EST" duration-ms="8168" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- explicitWaitUnderstanding -->
-      </class> <!-- com.automation.Day15_Feb_06_2024_Wait_Conditions_in_Selenium.What_Are_Wait_Conditions -->
+        </test-method> <!-- registerCodeWithEmailStyleUpdated -->
+        <test-method signature="registerCodeWithEmailStyleUpdated()[pri:0, instance:com.automation.Day16_Feb_07_2024_Date_Class_Concepts.Utilities@55634720]" started-at="2024-02-07T22:25:48 EST" name="registerCodeWithEmailStyleUpdated" finished-at="2024-02-07T22:25:55 EST" duration-ms="6956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCodeWithEmailStyleUpdated -->
+        <test-method signature="registerCodeWithEmailStyleUpdated()[pri:0, instance:com.automation.Day16_Feb_07_2024_Date_Class_Concepts.Utilities@55634720]" started-at="2024-02-07T22:25:55 EST" name="registerCodeWithEmailStyleUpdated" finished-at="2024-02-07T22:26:01 EST" duration-ms="6567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCodeWithEmailStyleUpdated -->
+        <test-method signature="registerCodeWithEmailStyleUpdated()[pri:0, instance:com.automation.Day16_Feb_07_2024_Date_Class_Concepts.Utilities@55634720]" started-at="2024-02-07T22:26:01 EST" name="registerCodeWithEmailStyleUpdated" finished-at="2024-02-07T22:26:08 EST" duration-ms="7166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCodeWithEmailStyleUpdated -->
+        <test-method signature="registerCodeWithEmailStyleUpdated()[pri:0, instance:com.automation.Day16_Feb_07_2024_Date_Class_Concepts.Utilities@55634720]" started-at="2024-02-07T22:26:08 EST" name="registerCodeWithEmailStyleUpdated" finished-at="2024-02-07T22:26:15 EST" duration-ms="6696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCodeWithEmailStyleUpdated -->
+        <test-method signature="registerCodeWithEmailStyleUpdated()[pri:0, instance:com.automation.Day16_Feb_07_2024_Date_Class_Concepts.Utilities@55634720]" started-at="2024-02-07T22:26:15 EST" name="registerCodeWithEmailStyleUpdated" finished-at="2024-02-07T22:26:22 EST" duration-ms="6581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCodeWithEmailStyleUpdated -->
+        <test-method signature="registerCodeWithEmailStyleUpdated()[pri:0, instance:com.automation.Day16_Feb_07_2024_Date_Class_Concepts.Utilities@55634720]" started-at="2024-02-07T22:26:22 EST" name="registerCodeWithEmailStyleUpdated" finished-at="2024-02-07T22:26:29 EST" duration-ms="6885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCodeWithEmailStyleUpdated -->
+        <test-method signature="registerCodeWithEmailStyleUpdated()[pri:0, instance:com.automation.Day16_Feb_07_2024_Date_Class_Concepts.Utilities@55634720]" started-at="2024-02-07T22:26:29 EST" name="registerCodeWithEmailStyleUpdated" finished-at="2024-02-07T22:26:35 EST" duration-ms="6463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCodeWithEmailStyleUpdated -->
+        <test-method signature="registerCodeWithEmailStyleUpdated()[pri:0, instance:com.automation.Day16_Feb_07_2024_Date_Class_Concepts.Utilities@55634720]" started-at="2024-02-07T22:26:35 EST" name="registerCodeWithEmailStyleUpdated" finished-at="2024-02-07T22:26:42 EST" duration-ms="6624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCodeWithEmailStyleUpdated -->
+        <test-method signature="registerCodeWithEmailStyleUpdated()[pri:0, instance:com.automation.Day16_Feb_07_2024_Date_Class_Concepts.Utilities@55634720]" started-at="2024-02-07T22:26:42 EST" name="registerCodeWithEmailStyleUpdated" finished-at="2024-02-07T22:26:48 EST" duration-ms="6394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerCodeWithEmailStyleUpdated -->
+      </class> <!-- com.automation.Day16_Feb_07_2024_Date_Class_Concepts.Utilities -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
