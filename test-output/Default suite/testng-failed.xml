@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day14_Jan_31_2024_Introduction_To_DataDriven_Testing.TN_Data_From_PropertiesFile">
+      <class name="com.TestNG.Day17_Feb_13_2024_DataProvider_ExcelSheet.TestCase">
         <methods>
-          <include name="login"/>
+          <include name="loginTutorialsNinjaTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.automation.Day14_Jan_31_2024_Introduction_To_DataDriven_Testing.TN_Data_From_PropertiesFile -->
+      </class> <!-- com.TestNG.Day17_Feb_13_2024_DataProvider_ExcelSheet.TestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
