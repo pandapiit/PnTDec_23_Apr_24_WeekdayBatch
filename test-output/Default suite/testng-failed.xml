@@ -5,7 +5,7 @@
     <classes>
       <class name="com.TestNG.Day17_Feb_13_2024_DataProvider_ExcelSheet.TestCase">
         <methods>
-          <include name="loginTutorialsNinjaTest"/>
+          <include name="loginTNTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.TestNG.Day17_Feb_13_2024_DataProvider_ExcelSheet.TestCase -->

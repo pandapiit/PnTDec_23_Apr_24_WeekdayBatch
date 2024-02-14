@@ -76,7 +76,7 @@ public class ExcelCode {
 	
 	public static Object[][] readFromExcelSheetTNRegister(String sheetName) throws Exception {
 		//5. Create the Object of FileInputStream class and pass the path of the Excel sheet in its Constructor
-			 ip = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\com\\TestNG\\Oct_01_2023_Day10_TestNG_ExcelSheet_DataProvider\\ExcelData.xlsx");
+			 ip = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\com\\TestNG\\Day17_Feb_13_2024_DataProvider_ExcelSheet\\ExcelData.xlsx");
 		//6. Create the Object of XSSFWorkbook class
 			 workbook = new XSSFWorkbook(ip);
 		//7. use the workbook reference to address individual sheet
@@ -120,7 +120,7 @@ public class ExcelCode {
 	
 	public static Object[][] readFromExcelSheetRediffLogin(String sheetName) throws Exception {
 		//5. Create the Object of FileInputStream class and pass the path of the Excel sheet in its Constructor
-			 ip = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\com\\TestNG\\Oct_01_2023_Day10_TestNG_ExcelSheet_DataProvider\\ExcelData.xlsx");
+			 ip = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\com\\TestNG\\Day17_Feb_13_2024_DataProvider_ExcelSheet\\ExcelData.xlsx");
 		//6. Create the Object of XSSFWorkbook class
 			 workbook = new XSSFWorkbook(ip);
 		//7. use the workbook reference to address individual sheet
