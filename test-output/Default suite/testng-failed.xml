@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.Day17_Feb_13_2024_Parametertization_Of_TestCases.Parameterization_TestNG_Xml_file">
+      <class name="com.automation.Day18_Feb_14_2024_Wait_BrowserOptions.ChromeOptions_ChromeBrowser">
         <methods>
-          <include name="loginTNParameterizationConcept"/>
+          <include name="tutorialsNinjaLogin"/>
         </methods>
-      </class> <!-- com.TestNG.Day17_Feb_13_2024_Parametertization_Of_TestCases.Parameterization_TestNG_Xml_file -->
+      </class> <!-- com.automation.Day18_Feb_14_2024_Wait_BrowserOptions.ChromeOptions_ChromeBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

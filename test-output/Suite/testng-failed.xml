@@ -2,15 +2,20 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+        <exclude name="sanity"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.automation.Day15_Feb_06_2024_Applying_OOPs_in_Automation.Login">
+      <class name="com.TestNG.Day18_Feb_14_2024_TestNG_Groups.TestCases_Groups">
         <methods>
-          <include name="verifyLoginWithInvalidCredentials"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verifyLoginWithInvalidEmailValidPassword"/>
+          <include name="verifyLoginWithValidEmailInvalidPassword"/>
+          <include name="verifyLoginWithNoCredentials"/>
         </methods>
-      </class> <!-- com.automation.Day15_Feb_06_2024_Applying_OOPs_in_Automation.Login -->
+      </class> <!-- com.TestNG.Day18_Feb_14_2024_TestNG_Groups.TestCases_Groups -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
