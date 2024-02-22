@@ -26,7 +26,7 @@ public class SearchProduct extends TestBase{
 	public void verifySearchValidProduct() {
 		driver.findElement(By.name("search")).sendKeys("HP");
 		driver.findElement(By.cssSelector("button.btn.btn-default.btn-lg")).click();
-		Assert.assertTrue(driver.findElement(By.linkText("HP LP3065")).isDisplayed());
+		Assert.assertFalse(driver.findElement(By.linkText("HP LP3065")).isDisplayed());
 	}
 	
 	@Test(priority=2)
