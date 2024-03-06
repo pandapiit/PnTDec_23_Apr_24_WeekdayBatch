@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day18_Feb_14_2024_Wait_BrowserOptions.ChromeOptions_ChromeBrowser">
+      <class name="com.automation.Day23_Mar_05_2024_Dynamic_Dropdowns.Looping_Dropdown">
         <methods>
-          <include name="tutorialsNinjaLogin"/>
+          <include name="loopingDropDownEaseMyTrip"/>
         </methods>
-      </class> <!-- com.automation.Day18_Feb_14_2024_Wait_BrowserOptions.ChromeOptions_ChromeBrowser -->
+      </class> <!-- com.automation.Day23_Mar_05_2024_Dynamic_Dropdowns.Looping_Dropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

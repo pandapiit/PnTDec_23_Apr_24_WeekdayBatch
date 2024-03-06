@@ -6,17 +6,17 @@ public class SanityTestCases_Register {
 	
 	@Test(priority = 1)
 	public void test7() {
-		System.out.println("Regression Test 1");
+		System.out.println("Sanity Test 1");
 	}
 	
 	@Test(priority = 2)
 	public void test8() {
-		System.out.println("Regression Test 2");
+		System.out.println("Sanity Test 2");
 	}
 	
 	@Test(priority = 3)
 	public void test9() {
-		System.out.println("Regression Test 3");
+		System.out.println("Sanity Test 3");
 	}
 
 }
