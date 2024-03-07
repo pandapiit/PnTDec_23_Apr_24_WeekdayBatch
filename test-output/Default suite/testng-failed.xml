@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Day23_Mar_05_2024_Dynamic_Dropdowns.Looping_Dropdown">
+      <class name="com.automation.Day24_Mar_06_2024_Multiple_WebElements.Rediff_FooterLinks">
         <methods>
-          <include name="loopingDropDownEaseMyTrip"/>
+          <include name="clickOnEachFooterLinkComebackAndClickOnNextLink"/>
         </methods>
-      </class> <!-- com.automation.Day23_Mar_05_2024_Dynamic_Dropdowns.Looping_Dropdown -->
+      </class> <!-- com.automation.Day24_Mar_06_2024_Multiple_WebElements.Rediff_FooterLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
